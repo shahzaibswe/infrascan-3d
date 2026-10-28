@@ -1214,7 +1214,10 @@ async function viewInspection(host, params) {
           <dt>Confidence</dt><dd>${Fmt.pct(finding.confidence)}</dd>
           <dt>Box (px)</dt><dd class="mono">${(finding.box || []).join(", ")}</dd>
           <dt>Mask</dt><dd>${esc(maskNote)}</dd>
-          <dt>Frames seen</dt><dd>${esc((finding.frames_seen || []).join(", ") || String(frameOf(finding)))}</dd>
+          <dt>Frames seen</dt><dd>${(() => {
+            const seen = finding.frames_seen || [];
+            return seen.length ? `${seen.length} frame(s) · #${seen.join(", #")}` : `frame ${frameOf(finding)}`;
+          })()}</dd>
           <dt>Area</dt><dd>${finding.area_m2 ? `${Fmt.num(finding.area_m2)} m²` : "not computed (no px/m)"}</dd>
           <dt>Detected by</dt><dd>${engineBadge(finding.detection_engine)}</dd>
         </dl>
