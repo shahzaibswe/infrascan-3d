@@ -1,0 +1,64 @@
+{
+ "size": [
+  1024,
+  768
+ ],
+ "defects": [
+  {
+   "concept": "pipe corrosion",
+   "object_id": 0,
+   "box": [
+    108,
+    32,
+    313,
+    212
+   ],
+   "mask_height": -101,
+   "mask_width": 205,
+   "mask": "!!!!#-$jWS@?7JrAs2ytVM/!s%=TYW-5$A'((z/jFSO=_IhMW9%eD[TASk^b.Uug&2L5R&DsjODqL_HB4GN/D-Ub3wY!A)gY!([OPtfEG9y!8K`W1op&xfnwt!!!!",
+   "confidence": 0.912073
+  },
+  {
+   "concept": "pipe corrosion",
+   "object_id": 1,
+   "box": [
+    796,
+    121,
+    978,
+    310
+   ],
+   "mask_height": -668,
+   "mask_width": 182,
+   "mask": "!!!!#*%6K+CZw]orK`4R6Sj&y70`biTu!P^K6AK{T++fKLf1)-5Nu5p-2a0k5sr!Pd.]`0zg&wWyEVEDXUXWhxVl{zNc/iX&(?BP8VX5rjcdH@r:`_9(UrQjg!!",
+   "confidence": 0.876871
+  },
+  {
+   "concept": "surface crack",
+   "object_id": 2,
+   "box": [
+    207,
+    509,
+    385,
+    663
+   ],
+   "mask_height": 278,
+   "mask_width": 178,
+   "mask": "!!!!!?7DpldA8oP(2MiG=MQA&1xAI!g)+Wl0!!",
+   "confidence": 0.773977
+  },
+  {
+   "concept": "paint peeling",
+   "object_id": 3,
+   "box": [
+    720,
+    551,
+    929,
+    738
+   ],
+   "mask_height": -191,
+   "mask_width": 209,
+   "mask": "!!!!!4)RUU'ma#q96va:24$sZ[!!",
+   "confidence": 0.825832
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "size": [
+  1024,
+  768
+ ],
+ "defects": [
+  {
+   "concept": "rusted tower lattice",
+   "object_id": 0,
+   "box": [
+    173,
+    163,
+    385,
+    319
+   ],
+   "mask_height": -66,
+   "mask_width": 212,
+   "mask": "!!!!#)%M9g8(d11M1FoZYmNO#fDf8kmo{f7c?3?K?O$Mj/1(KU.]1h=BYm!PAw`bEUbh!b?%{?qWbNcGh-Ivc3HP#b9eDZJecU#kKI06wK-C-qZ2Drnp!!!!!",
+   "confidence": 0.897375
+  },
+  {
+   "concept": "corroded metal joint",
+   "object_id": 1,
+   "box": [
+    708,
+    59,
+    897,
+    235
+   ],
+   "mask_height": -662,
+   "mask_width": 189,
+   "mask": "!!!!#)%XZDOg$REQVRAq!K*JM8RM#ScG+sO.rwB)kkq0UEFaMjUu!Q1F7!1DegQmHW]xH[0hB0Ioe__l21*b7Yp$mOCN]c[x7'Jq2m1I#RvnMO0'sP-{?'q9u",
+   "confidence": 0.893508
+  },
+  {
+   "concept": "cracked concrete foundation",
+   "object_id": 2,
+   "box": [
+    70,
+    542,
+    299,
+    727
+   ],
+   "mask_height": 428,
+   "mask_width": 229,
+   "mask": "!!!!!@2bFTR-Z^p5bb!yN71l#[l(VabxEcIem'R",
+   "confidence": 0.728744
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# local secrets and runtime state - never publish
+.env
+*.env.local
+data/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db

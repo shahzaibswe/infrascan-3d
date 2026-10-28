@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>InfraScan 3D — Infrastructure defect intelligence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230d1b2e'/><path d='M8 21l5-9 3 5 2-3 6 7z' fill='none' stroke='%2338bdf8' stroke-width='2.2' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="/static/styles.css">
+<script defer src="/static/app.js"></script>
+<script defer src="/static/views.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#view">Skip to content</a>
+
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30"><path d="M6 24l6-11 4 6 3-4 7 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="22" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </span>
+      <span class="brand-text">
+        <strong>InfraScan 3D</strong>
+        <em>Defect intelligence</em>
+      </span>
+      <button class="icon-button sidebar-close" id="sidebarClose" type="button" aria-label="Close navigation">✕</button>
+    </div>
+
+    <nav class="nav" id="nav"></nav>
+
+    <div class="sidebar-foot">
+      <div class="mode-pill" id="modePill" title="Processing mode is decided by server configuration">
+        <span class="dot" id="modeDot"></span><span id="modeLabel">checking…</span>
+      </div>
+      <p class="sidebar-note" id="sidebarNote">Loading provider status…</p>
+    </div>
+  </aside>
+
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main class="workspace">
+    <header class="topbar">
+      <button class="icon-button menu-button" id="menuButton" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="topbar-title">
+        <h1 id="pageTitle">Dashboard</h1>
+        <p id="pageSubtitle">Infrastructure inspection status across all assets</p>
+      </div>
+      <div class="topbar-actions">
+        <label class="search-field" id="globalSearchField">
+          <span aria-hidden="true">⌕</span>
+          <input id="globalSearch" type="search" placeholder="Search assets, defects, orders" aria-label="Global search">
+        </label>
+        <a class="button button-primary" href="#/inspections/new" data-nav-hide>+ New inspection</a>
+      </div>
+    </header>
+
+    <section class="banner" id="banner" hidden role="status"></section>
+
+    <div id="view" class="view" tabindex="-1"></div>
+  </main>
+</div>
+
+<div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="false"></div>
+<div class="modal-root" id="modalRoot" hidden></div>
+
+</body>
+</html>

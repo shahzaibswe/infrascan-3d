@@ -1,0 +1,64 @@
+{
+ "size": [
+  1024,
+  768
+ ],
+ "defects": [
+  {
+   "concept": "asphalt crack",
+   "object_id": 0,
+   "box": [
+    40,
+    47,
+    296,
+    200
+   ],
+   "mask_height": -96,
+   "mask_width": 256,
+   "mask": "!!!!!`4DZaPj/{VNnlUS1NnVt$Qpl5qPzFhnCm)tG0F26:NcTVd$fLyjW#h?P/UN7']XYga.@`es!!",
+   "confidence": 0.856332
+  },
+  {
+   "concept": "asphalt crack",
+   "object_id": 1,
+   "box": [
+    751,
+    128,
+    979,
+    300
+   ],
+   "mask_height": -679,
+   "mask_width": 228,
+   "mask": "!!!!!L4''M+R/{LRYwn8fv4d2c#7jG%/Szb5Uvaa`%603fFvMNrWP+",
+   "confidence": 0.888405
+  },
+  {
+   "concept": "road pothole",
+   "object_id": 2,
+   "box": [
+    272,
+    554,
+    476,
+    704
+   ],
+   "mask_height": 228,
+   "mask_width": 204,
+   "mask": "!!!!#73AA2pHGKVbZ^G5Fg@ZkhjQ]7rm-O72H=A7'wS1SIF1JVx_R4nMQv3(L*b9rY#Q1%%mr]*cn`yu]`a.4h_f*&NkHV{G:F.C+Z*b#7cv1%%LELb^OHfi?*gfSM#1OtIJcpH'!!",
+   "confidence": 0.751763
+  },
+  {
+   "concept": "road spalling",
+   "object_id": 3,
+   "box": [
+    624,
+    406,
+    834,
+    563
+   ],
+   "mask_height": -271,
+   "mask_width": 210,
+   "mask": "!!!!!3+?*DXd=K@Hu(1:y!!!!!",
+   "confidence": 0.756937
+  }
+ ]
+}
